@@ -1,3 +1,4 @@
+import AuthButton from "@/components/auth-button";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div>
       hello YT
       <Button>Shadcn button!</Button>
+      <AuthButton />
     </div>
   );
 }
